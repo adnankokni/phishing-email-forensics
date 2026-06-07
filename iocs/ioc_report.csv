@@ -1,0 +1,7 @@
+timestamp,source_file,type,value,notes
+2026-06-07T15:35:31.661025Z,phishing_sample_01.eml,URL,http://evil-phishing-site.com/login,
+2026-06-07T15:35:31.661025Z,phishing_sample_01.eml,EMAIL,attacker@evil.com,
+2026-06-07T15:35:31.661025Z,phishing_sample_01.eml,EMAIL,victim@company.com,
+2026-06-07T15:38:01.117846Z,phishing_sample_01.eml,URL,http://evil-phishing-site.com/login,
+2026-06-07T15:38:01.117846Z,phishing_sample_01.eml,EMAIL,attacker@evil.com,
+2026-06-07T15:38:01.117846Z,phishing_sample_01.eml,EMAIL,victim@company.com,
