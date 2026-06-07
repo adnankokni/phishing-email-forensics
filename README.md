@@ -20,6 +20,8 @@ extracts IOCs (IPs, URLs, emails, domains), and generates forensics reports.
 |---|---|
 | `scripts/parse_email.py` | Parses email headers and body from .eml files |
 | `scripts/extract_iocs.py` | Extracts IPs, URLs, emails, and suspicious domains |
+| `scripts/detect_spoofing.py` | Detects spoofing indicators and gives risk verdict |
+| `scripts/generate_report.py` | Auto-generates a full forensics report |
 
 ## Usage
 
@@ -30,6 +32,14 @@ extracts IOCs (IPs, URLs, emails, domains), and generates forensics reports.
 **Extract IOCs:**
 
     python scripts/extract_iocs.py samples/phishing_sample_01.eml
+
+**Detect spoofing:**
+
+    python scripts/detect_spoofing.py samples/phishing_sample_01.eml
+
+**Generate full report:**
+
+    python scripts/generate_report.py samples/phishing_sample_01.eml
 
 IOCs are saved to `iocs/ioc_report.csv` automatically.
 
@@ -42,5 +52,5 @@ IOCs are saved to `iocs/ioc_report.csv` automatically.
 
 - [x] Email header parsing
 - [x] IOC extraction (IPs, URLs, emails, domains)
-- [ ] Header spoofing detection
-- [ ] Automated report generation
+- [x] Header spoofing detection
+- [x] Automated report generation
