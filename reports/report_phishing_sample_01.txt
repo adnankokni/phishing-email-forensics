@@ -1,0 +1,54 @@
+
+================================================
+       PHISHING EMAIL FORENSICS REPORT
+================================================
+Generated : 2026-06-07 16:08:05 UTC
+Analyst   : SOC Analyst
+Source    : phishing_sample_01.eml
+
+------------------------------------------------
+SECTION 1 — EMAIL HEADERS
+------------------------------------------------
+From        : attacker@evil.com
+To          : victim@company.com
+Subject     : Urgent: Verify your account now
+Date        : Mon, 07 Jun 2026 10:00:00 +0000
+Reply-To    : None
+Return-Path : None
+
+------------------------------------------------
+SECTION 2 — EMAIL BODY (PREVIEW)
+------------------------------------------------
+Dear User,
+
+Click here to verify your account: http://evil-phishing-site.com/login
+
+Regards,
+Support Team
+
+------------------------------------------------
+SECTION 3 — EXTRACTED IOCs
+------------------------------------------------
+URLs found    : 1
+  - http://evil-phishing-site.com/login
+
+IPs found     : 0
+  None
+
+Emails found  : 2
+  - attacker@evil.com
+  - victim@company.com
+
+------------------------------------------------
+SECTION 4 — SPOOFING INDICATORS
+------------------------------------------------
+  ⚠️  Suspicious subject keywords: urgent, verify, account
+
+------------------------------------------------
+SECTION 5 — VERDICT
+------------------------------------------------
+  MEDIUM RISK
+
+================================================
+END OF REPORT
+================================================
