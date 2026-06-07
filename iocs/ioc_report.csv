@@ -5,3 +5,7 @@ timestamp,source_file,type,value,notes
 2026-06-07T15:38:01.117846Z,phishing_sample_01.eml,URL,http://evil-phishing-site.com/login,
 2026-06-07T15:38:01.117846Z,phishing_sample_01.eml,EMAIL,attacker@evil.com,
 2026-06-07T15:38:01.117846Z,phishing_sample_01.eml,EMAIL,victim@company.com,
+2026-06-07T16:17:20.028645Z,phishing_real_01.eml,IP,10.13.177.138,
+2026-06-07T16:17:20.028645Z,phishing_real_01.eml,IP,137.184.34.4,
+2026-06-07T16:17:20.028645Z,phishing_real_01.eml,EMAIL,banco.bradesco@atendimento.com.br,
+2026-06-07T16:17:20.028645Z,phishing_real_01.eml,EMAIL,BANCO.BRADESCO@ATENDIMENTO.COM.BR,
